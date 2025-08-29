@@ -1,12 +1,10 @@
 #include <iostream>
 #include <vector>
 #include <algorithm>
-
-// Using the standard namespace for cleaner code in this consolidated file.
 using namespace std;
 
 /**
- * @brief LeetCode 121: Best Time to Buy and Sell Stock
+  Best Time to Buy and Sell Stock
  * * Problem: You are given an array prices where prices[i] is the price of a given stock on the ith day.
  * You want to maximize your profit by choosing a single day to buy one stock and choosing a different
  * day in the future to sell that stock. Return the maximum profit you can achieve from this transaction.
@@ -45,7 +43,7 @@ public:
 };
 
 /**
- * @brief LeetCode 122: Best Time to Buy and Sell Stock II
+ Best Time to Buy and Sell Stock II
  * * Problem: You are given an integer array prices where prices[i] is the price of a given stock on the ith day.
  * On each day, you may decide to buy and/or sell the stock. You can only hold at most one share of the stock
  * at any time. However, you can buy it then immediately sell it on the same day. Find and return the maximum
@@ -70,7 +68,7 @@ public:
 };
 
 /**
- * @brief LeetCode 123: Best Time to Buy and Sell Stock III
+ Best Time to Buy and Sell Stock III
  * * Problem: You are given an array prices where prices[i] is the price of a stock on the ith day.
  * Find the maximum profit you can achieve. You may complete at most two transactions.
  * Note: You may not engage in multiple transactions simultaneously (i.e., you must sell the stock
@@ -123,7 +121,7 @@ public:
 };
 
 /**
- * @brief LeetCode 188: Best Time to Buy and Sell Stock IV
+  Best Time to Buy and Sell Stock IV
  * * Problem: You are given an integer array prices where prices[i] is the price of a given stock on the ith day,
  * and an integer k. Find the maximum profit you can achieve. You may complete at most k transactions.
  * * Approach: This is a generalization of the previous problem. This solution uses tabulation
@@ -162,7 +160,7 @@ public:
 };
 
 /**
- * @brief LeetCode 309: Best Time to Buy and Sell Stock with Cooldown
+ Best Time to Buy and Sell Stock with Cooldown
  * * Problem: You are given an array prices where prices[i] is the price of a given stock on the ith day.
  * Find the maximum profit you can achieve. You may complete as many transactions as you like, but with
  * one constraint: after you sell your stock, you cannot buy stock on the next day (i.e., cooldown of 1 day).
